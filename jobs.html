@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lowongan Kerja - AR GROUP TB 集团</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .urgent-badge {
+            background-color: #ff4444;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        .position.highlight {
+            border-left: 4px solid #ff9900;
+            background-color: #fffaf0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>AR GROUP TB 集团</h1>
+            <p>Join Our Team</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#positions"><i class="fas fa-briefcase"></i> Positions</a></li>
+                <li><a href="#application"><i class="fas fa-envelope"></i> Apply Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="positions" class="positions-section">
+            <h2><i class="fas fa-briefcase"></i> Daftar Posisi</h2>
+            <div class="positions-list">
+                <!-- New Marketing Position -->
+                <div class="position highlight">
+                    <h3>Marketing <span class="urgent-badge">URGENT</span></h3>
+                    <p><strong>📍 Location:</strong> Golden Triangle SEZ, Laos (For Indonesian Candidates)</p>
+                    <ul>
+                        <li><strong>⏰ Hours:</strong> 12 hours/day (No shift rotation, No OT)</li>
+                        <li><strong>💰 Salary:</strong> RMB 6,000–12,000/month (+RMB 500 every 3 months)</li>
+                        <li><strong>✈️ Benefits:</strong> 
+                            <ul class="nested-list">
+                                <li>Flight ticket + visa provided</li>
+                                <li>Free accommodation & meals</li>
+                                <li>RMB 700/month living allowance</li>
+                                <li>17 days paid leave every 6 months</li>
+                                <li>13th month bonus (up to RMB 10,000)</li>
+                            </ul>
+                        </li>
+                        <li><strong>⚠️ Note:</strong> RMB 500/month deposit (refundable upon contract completion)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="application" class="application-section">
+            <h2><i class="fas fa-envelope"></i> Formulir Aplikasi</h2>
+            <form class="application-form">
+                <div class="form-group">
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="position">Posisi yang Dilamar</label>
+                    <select id="position" name="position" required>
+                        <option value="">-- Pilih Posisi --</option>
+                        <option value="marketing">Marketing Professional (Laos)</option>
+                    </select>
+                </div>
+                <div class="form-group
