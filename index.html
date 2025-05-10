@@ -88,12 +88,21 @@
                     </div>
                 </div>
                 <form class="contact-form" action="send_message.php" method="POST">
-<form id="contactForm">
-    <input type="text" id="name" placeholder="Name" required>
-    <input type="email" id="email" placeholder="Email" required>
-    <textarea id="message" placeholder="Message" required></textarea>
-    <button type="submit" id="sendMessageButton">Send Message</button>
-</form>
+<form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subjek">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Pesan Anda" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Kirim Pesan</button>
+                </form>
             </div>
         </section>
     </main>
